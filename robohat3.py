@@ -222,6 +222,7 @@ def turnReverse(leftSpeed, rightSpeed):
 #======================================================================
 
 
+'''
 #======================================================================
 # IR Sensor Functions
 #
@@ -335,4 +336,4 @@ def stopServod():
     global ServosActive
     os.system("sudo pkill -f servod")
     ServosActive = False
-
+'''
